@@ -1,0 +1,129 @@
+/*Colors and fonts */
+body {
+  background: #d3f4fe;
+  color: #4E709D;
+  font-size: 15px;
+  font-weight: lighter;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3 {
+  color: #163f75;
+  font-family: 'Noto Serif SC', serif;
+  font-weight: bold;
+}
+h1{
+  font-size: 30;
+}
+h2{
+  font-size: 30;
+  font-weight: lighter;
+}
+
+a{
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  color: #F5B17B;
+  font-size: 14px;
+  font-weight: bolder;
+}
+a:hover {
+  color: #163f75 ;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 620px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 400px;
+    margin: 0 auto;
+  }
+}
+
+
+.card-lightblue{
+  width: 600px;
+  background-color: #e9fdff;
+  border-radius: 4px;
+  box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin: 30px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card-lightblue {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 500px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card-lightblue {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+
+.img-circle{
+  border-radius: 50%;
+  width: 200px;
+  height: auto;
+}
+
+.btn-orange{
+  background-color: #F5B17B;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn-orange hover {
+  background-color:whitesmoke;
+  color: orangered;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
